@@ -106,6 +106,10 @@ section h3 {
   border: 1px solid #f0f0f0;
 }
 
+.participants-list li {
+  justify-content: space-between;
+}
+
 .avatar {
   flex: 0 0 36px;
   width: 36px;
@@ -125,6 +129,20 @@ section h3 {
   font-size: 14px;
   color: #333;
   word-break: break-all;
+}
+
+.remove-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.remove-btn:hover {
+  background: rgba(198,40,40,0.08);
 }
 
 .no-participants {
